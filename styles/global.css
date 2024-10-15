@@ -23,7 +23,7 @@
 
     --input-base: #1C1F21;
     --input-stroke: #363B40;
-    --input-placeholder: 869198;
+    --input-placeholder: #869198;
 
     --shape-background: #131516;
     --shape-body: #212427;
@@ -45,4 +45,12 @@
     --body-md: 1rem var(--text-page);
     --body-sm: 0.875rem var(--text-page);
     --body-xs: 0.75rem var(--text-page);
+
+    
+    
+}
+
+body {
+    overflow: hidden;
+    background-color: var(--shape-body);
 }
